@@ -41,4 +41,4 @@ for (const jobData of objassignmentdata) {
     await expect(page.locator("div.oxd-table-card").filter({ hasText: uniqueJobTitle }))
       .toBeVisible();
   });
-}
+}  
